@@ -1,0 +1,48 @@
+name: Actualizar radar diario
+
+on:
+  schedule:
+    # 09:00 UTC = 04:00 en Ecuador (UTC-5). Ajusta la hora a tu gusto.
+    - cron: '0 9 * * *'
+  workflow_dispatch: {} # permite ejecutarlo manualmente desde la pestaña Actions
+
+permissions:
+  contents: write
+
+jobs:
+  actualizar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Clonar repo
+        uses: actions/checkout@v4
+
+      - name: Configurar Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      # Puppeteer controla un Chrome real, que en Linux necesita estas
+      # librerías del sistema instaladas para poder arrancar.
+      - name: Instalar dependencias del sistema para Chrome headless
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y \
+            libnss3 libatk-bridge2.0-0 libatk1.0-0 libcups2 libxcomposite1 \
+            libxdamage1 libxfixes3 libxrandr2 libgbm1 libasound2t64 libpango-1.0-0 \
+            libpangocairo-1.0-0 libgtk-3-0 libx11-xcb1
+
+      - name: Instalar dependencias de Node (incluye descargar Chromium)
+        run: npm install
+
+      - name: Descargar estadísticas de SoccerStats.com
+        run: npm run fetch:stats
+
+      - name: Construir radar.json (partidos de mañana)
+        run: npm run build:radar
+
+      - name: Commitear datos actualizados
+        run: |
+          git config user.name "radar-bot"
+          git config user.email "radar-bot@users.noreply.github.com"
+          git add public/data/*.json
+          git diff --cached --quiet && echo "Sin cambios" || git commit -m
