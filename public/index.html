@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Radar de partidos — fútbol</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <div class="cancha-textura" aria-hidden="true"></div>
+
+  <header class="hero">
+    <div class="hero-marcador">
+      <span class="hero-num" id="numDestacados">–</span>
+      <span class="hero-num-label">partidos destacados hoy</span>
+    </div>
+    <div class="hero-texto">
+      <h1>Radar de partidos</h1>
+      <p id="heroFecha">Cargando fecha…</p>
+      <p class="hero-sub">Basado 100% en SoccerStats.com: tabla local/visita (1X2), Over/Under, BTTS y rachas. El % de 1X2 usa la fórmula cruzada Wh/Dh/Lh (local) y Wa/Da/La (visita), no cuotas de casas de apuestas.</p>
+    </div>
+  </header>
+
+  <nav class="filtros" id="filtros">
+    <button class="filtro activo" data-filtro="destacados">Destacados</button>
+    <button class="filtro" data-filtro="ganador60">Ganador 1X2 +60%</button>
+    <button class="filtro" data-filtro="over15">Más de 1.5 goles +60%</button>
+    <button class="filtro" data-filtro="over25">Más de 2.5 goles +60%</button>
+    <button class="filtro" data-filtro="btts60">Ambos anotan +60%</button>
+    <button class="filtro" data-filtro="rachaGanadora">Racha ganadora (2+)</button>
+    <button class="filtro" data-filtro="todos">Todos</button>
+  </nav>
+
+  <main id="contenedorLigas">
+    <p class="cargando">Cargando partidos…</p>
+  </main>
+
+  <footer class="pie">
+    <p>Fuentes: SoccerStats.com (tabla, over/under, BTTS y rachas).</p>
+    <p id="ultimaActualizacion"></p>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>

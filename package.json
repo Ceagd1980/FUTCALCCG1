@@ -1,0 +1,20 @@
+{
+  "name": "futbol-radar",
+  "version": "2.2.0",
+  "private": true,
+  "description": "Radar diario de partidos de fútbol basado 100% en estadísticas de SoccerStats.com (scraping vía navegador real con Puppeteer + stealth)",
+  "scripts": {
+    "fetch:stats": "node scripts/fetch-soccerstats.js",
+    "build:radar": "node scripts/build-radar.js",
+    "update": "npm run fetch:stats && npm run build:radar"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0",
+    "puppeteer": "^23.0.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  }
+}

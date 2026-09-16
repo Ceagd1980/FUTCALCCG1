@@ -1,0 +1,8 @@
+[build]
+  publish = "public"
+  command = "echo 'Sin build en Netlify: los datos se generan via GitHub Actions y se commitean al repo'"
+
+[[headers]]
+  for = "/data/*.json"
+  [headers.values]
+    Cache-Control = "no-cache"
