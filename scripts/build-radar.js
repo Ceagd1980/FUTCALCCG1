@@ -21,9 +21,12 @@ function fechaEC(iso) {
   return new Intl.DateTimeFormat('en-CA', { timeZone: ZONA_HORARIA }).format(new Date(iso));
 }
 
-function fechaDeManana() {
-  const manana = new Date(Date.now() + 24 * 60 * 60 * 1000);
-  return fechaEC(manana.toISOString());
+// Antes calculaba "mañana" porque el robot corría de madrugada (4am) y se
+// quería mostrar el día siguiente durante toda la jornada. Ahora el robot
+// corre justo después de medianoche en Ecuador, así que el "día a mostrar"
+// es simplemente HOY (el día que acaba de empezar en el momento de la corrida).
+function fechaDeHoy() {
+  return fechaEC(new Date().toISOString());
 }
 
 function promedio(...valores) {
@@ -194,7 +197,7 @@ function main() {
     process.exit(1);
   }
 
-  const objetivo = fechaDeManana();
+  const objetivo = fechaDeHoy();
   console.log(`Filtrando partidos del ${objetivo} (hora Ecuador)...`);
 
   const partidosAnalizados = [];
