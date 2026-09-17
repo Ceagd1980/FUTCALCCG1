@@ -2,8 +2,9 @@ name: Actualizar radar diario
 
 on:
   schedule:
-    # 09:00 UTC = 04:00 en Ecuador (UTC-5). Ajusta la hora a tu gusto.
-    - cron: '0 9 * * *'
+    # 05:05 UTC = 00:05 en Ecuador (UTC-5). Corre justo después de medianoche
+    # para que durante todo el día se muestren los partidos de HOY.
+    - cron: '5 5 * * *'
   workflow_dispatch: {} # permite ejecutarlo manualmente desde la pestaña Actions
 
 permissions:
@@ -37,7 +38,7 @@ jobs:
       - name: Descargar estadísticas de SoccerStats.com
         run: npm run fetch:stats
 
-      - name: Construir radar.json (partidos de mañana)
+      - name: Construir radar.json (partidos de hoy)
         run: npm run build:radar
 
       - name: Commitear datos actualizados
@@ -45,4 +46,6 @@ jobs:
           git config user.name "radar-bot"
           git config user.email "radar-bot@users.noreply.github.com"
           git add public/data/*.json
-          git diff --cached --quiet && echo "Sin cambios" || git commit -m
+          git diff --cached --quiet && echo "Sin cambios" || git commit -m "Actualización diaria del radar $(date -u +%Y-%m-%d)"
+          git pull --rebase origin main
+          git push
