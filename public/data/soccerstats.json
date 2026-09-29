@@ -1,5 +1,5 @@
 {
-  "generadoEn": "2026-09-28T09:34:08.863Z",
+  "generadoEn": "2026-09-29T09:49:03.028Z",
   "ligas": {
     "albania": {
       "nombre": "Albania - Abissnet Superiore",
@@ -12644,6 +12644,39 @@
           "over15HT": 27,
           "over25HT": 0
         },
+        "juventude": {
+          "nombreOriginal": "Juventude",
+          "gp": 30,
+          "w": 15,
+          "d": 8,
+          "l": 7,
+          "gf": 32,
+          "ga": 19,
+          "pts": 53,
+          "ppg": 1.77,
+          "wh": 9,
+          "dh": 4,
+          "lh": 2,
+          "gfh": 19,
+          "gah": 6,
+          "ppgh": null,
+          "ppga": null,
+          "wa": 6,
+          "da": 4,
+          "la": 5,
+          "gfa": 13,
+          "gaa": 13,
+          "over05": 47,
+          "over15": 20,
+          "over25": 0,
+          "over35": 0,
+          "btts": 7,
+          "htGolesFavorAprox": 0,
+          "htGolesContraAprox": 1,
+          "over05HT": 73,
+          "over15HT": 20,
+          "over25HT": 7
+        },
         "fortaleza": {
           "nombreOriginal": "Fortaleza",
           "gp": 30,
@@ -12709,39 +12742,6 @@
           "over05HT": 67,
           "over15HT": 40,
           "over25HT": 27
-        },
-        "juventude": {
-          "nombreOriginal": "Juventude",
-          "gp": 29,
-          "w": 14,
-          "d": 8,
-          "l": 7,
-          "gf": 31,
-          "ga": 19,
-          "pts": 50,
-          "ppg": 1.72,
-          "wh": 9,
-          "dh": 4,
-          "lh": 2,
-          "gfh": 19,
-          "gah": 6,
-          "ppgh": null,
-          "ppga": null,
-          "wa": 5,
-          "da": 4,
-          "la": 5,
-          "gfa": 12,
-          "gaa": 13,
-          "over05": 50,
-          "over15": 21,
-          "over25": 0,
-          "over35": 0,
-          "btts": 7,
-          "htGolesFavorAprox": 0,
-          "htGolesContraAprox": 1,
-          "over05HT": 71,
-          "over15HT": 21,
-          "over25HT": 7
         },
         "criciuma": {
           "nombreOriginal": "Criciuma",
@@ -13207,19 +13207,19 @@
         },
         "americamg": {
           "nombreOriginal": "America MG",
-          "gp": 29,
+          "gp": 30,
           "w": 4,
           "d": 5,
-          "l": 20,
+          "l": 21,
           "gf": 21,
-          "ga": 49,
+          "ga": 50,
           "pts": 17,
-          "ppg": 0.59,
+          "ppg": 0.57,
           "wh": 3,
           "dh": 3,
-          "lh": 8,
+          "lh": 9,
           "gfh": 12,
-          "gah": 20,
+          "gah": 21,
           "ppgh": null,
           "ppga": null,
           "wa": 1,
@@ -13274,11 +13274,6 @@
       },
       "partidos": [
         {
-          "fechaISO": "2026-09-28T23:30:00.000Z",
-          "local": "America MG",
-          "visita": "Juventude"
-        },
-        {
           "fechaISO": "2026-09-29T23:30:00.000Z",
           "local": "Botafogo SP",
           "visita": "Ponte Preta"
@@ -13307,6 +13302,26 @@
           "fechaISO": "2026-10-03T00:45:00.000Z",
           "local": "Juventude",
           "visita": "Operario PR"
+        },
+        {
+          "fechaISO": "2026-10-03T01:35:00.000Z",
+          "local": "Fortaleza",
+          "visita": "Nautico"
+        },
+        {
+          "fechaISO": "2026-10-03T15:00:00.000Z",
+          "local": "Avai",
+          "visita": "Ceara"
+        },
+        {
+          "fechaISO": "2026-10-03T20:00:00.000Z",
+          "local": "Atletico GO",
+          "visita": "America MG"
+        },
+        {
+          "fechaISO": "2026-10-03T21:00:00.000Z",
+          "local": "Cuiaba",
+          "visita": "Ponte Preta"
         }
       ]
     },
@@ -69897,21 +69912,54 @@
       "nombre": "Paraguay - Primera Div. - Clausura",
       "region": "Paraguay",
       "equipos": {
-        "libertad": {
-          "nombreOriginal": "Libertad",
-          "gp": 11,
-          "w": 7,
-          "d": 2,
-          "l": 2,
-          "gf": 19,
-          "ga": 12,
-          "pts": 23,
-          "ppg": 2.09,
+        "olimpia": {
+          "nombreOriginal": "Olimpia",
+          "gp": 12,
+          "w": 8,
+          "d": 1,
+          "l": 3,
+          "gf": 21,
+          "ga": 9,
+          "pts": 25,
+          "ppg": 2.08,
           "wh": 4,
           "dh": 1,
-          "lh": 0,
+          "lh": 1,
+          "gfh": 13,
+          "gah": 4,
+          "ppgh": null,
+          "ppga": null,
+          "wa": 4,
+          "da": 0,
+          "la": 2,
+          "gfa": 8,
+          "gaa": 5,
+          "over05": 83,
+          "over15": 33,
+          "over25": 0,
+          "over35": 0,
+          "btts": 0,
+          "htGolesFavorAprox": 0,
+          "htGolesContraAprox": 4,
+          "over05HT": 83,
+          "over15HT": 17,
+          "over25HT": 0
+        },
+        "libertad": {
+          "nombreOriginal": "Libertad",
+          "gp": 12,
+          "w": 7,
+          "d": 2,
+          "l": 3,
+          "gf": 19,
+          "ga": 13,
+          "pts": 23,
+          "ppg": 1.92,
+          "wh": 4,
+          "dh": 1,
+          "lh": 1,
           "gfh": 12,
-          "gah": 5,
+          "gah": 6,
           "ppgh": null,
           "ppga": null,
           "wa": 3,
@@ -69962,39 +70010,6 @@
           "over05HT": 83,
           "over15HT": 50,
           "over25HT": 17
-        },
-        "olimpia": {
-          "nombreOriginal": "Olimpia",
-          "gp": 11,
-          "w": 7,
-          "d": 1,
-          "l": 3,
-          "gf": 20,
-          "ga": 9,
-          "pts": 22,
-          "ppg": 2,
-          "wh": 4,
-          "dh": 1,
-          "lh": 1,
-          "gfh": 13,
-          "gah": 4,
-          "ppgh": null,
-          "ppga": null,
-          "wa": 3,
-          "da": 0,
-          "la": 2,
-          "gfa": 7,
-          "gaa": 5,
-          "over05": 80,
-          "over15": 40,
-          "over25": 0,
-          "over35": 0,
-          "btts": 0,
-          "htGolesFavorAprox": 0,
-          "htGolesContraAprox": 3,
-          "over05HT": 100,
-          "over15HT": 20,
-          "over25HT": 0
         },
         "2demayo": {
           "nombreOriginal": "2 de Mayo",
@@ -70229,14 +70244,14 @@
         },
         "drecoleta": {
           "nombreOriginal": "D. Recoleta",
-          "gp": 11,
+          "gp": 12,
           "w": 2,
-          "d": 1,
+          "d": 2,
           "l": 8,
           "gf": 13,
           "ga": 24,
-          "pts": 7,
-          "ppg": 0.64,
+          "pts": 8,
+          "ppg": 0.67,
           "wh": 1,
           "dh": 1,
           "lh": 4,
@@ -70245,35 +70260,35 @@
           "ppgh": null,
           "ppga": null,
           "wa": 1,
-          "da": 0,
+          "da": 1,
           "la": 4,
           "gfa": 5,
           "gaa": 11,
-          "over05": 80,
-          "over15": 40,
+          "over05": 67,
+          "over15": 33,
           "over25": 0,
           "over35": 0,
-          "btts": 40,
+          "btts": 33,
           "rachaTipo": "D",
           "rachaLongitud": 11,
           "htGolesFavorAprox": 0,
           "htGolesContraAprox": 1,
-          "over05HT": 100,
-          "over15HT": 60,
-          "over25HT": 40
+          "over05HT": 83,
+          "over15HT": 50,
+          "over25HT": 33
         },
         "sanlorenzo": {
           "nombreOriginal": "San Lorenzo",
-          "gp": 11,
+          "gp": 12,
           "w": 0,
-          "d": 1,
+          "d": 2,
           "l": 10,
           "gf": 3,
           "ga": 21,
-          "pts": 1,
-          "ppg": 0.09,
+          "pts": 2,
+          "ppg": 0.17,
           "wh": 0,
-          "dh": 0,
+          "dh": 1,
           "lh": 5,
           "gfh": 1,
           "gah": 11,
@@ -70297,16 +70312,6 @@
         }
       },
       "partidos": [
-        {
-          "fechaISO": "2026-09-28T20:30:00.000Z",
-          "local": "San Lorenzo",
-          "visita": "D. Recoleta"
-        },
-        {
-          "fechaISO": "2026-09-28T23:00:00.000Z",
-          "local": "Libertad",
-          "visita": "Olimpia"
-        },
         {
           "fechaISO": "2026-10-03T20:30:00.000Z",
           "local": "Guarani",
@@ -70336,6 +70341,26 @@
           "fechaISO": "2026-10-06T23:00:00.000Z",
           "local": "Olimpia",
           "visita": "Nacional"
+        },
+        {
+          "fechaISO": "2026-10-15T01:00:00.000Z",
+          "local": "2 de Mayo",
+          "visita": "S. Ameliano"
+        },
+        {
+          "fechaISO": "2026-10-15T01:00:00.000Z",
+          "local": "Libertad",
+          "visita": "Guarani"
+        },
+        {
+          "fechaISO": "2026-10-15T01:00:00.000Z",
+          "local": "Nacional",
+          "visita": "D. Recoleta"
+        },
+        {
+          "fechaISO": "2026-10-15T01:00:00.000Z",
+          "local": "Rubio Nu",
+          "visita": "Olimpia"
         }
       ]
     },
@@ -83041,6 +83066,39 @@
       "nombre": "Spain - LaLiga2",
       "region": "Spain",
       "equipos": {
+        "castellon": {
+          "nombreOriginal": "Castellon",
+          "gp": 7,
+          "w": 6,
+          "d": 1,
+          "l": 0,
+          "gf": 14,
+          "ga": 2,
+          "pts": 19,
+          "ppg": 2.71,
+          "wh": 2,
+          "dh": 1,
+          "lh": 0,
+          "gfh": 7,
+          "gah": 0,
+          "ppgh": null,
+          "ppga": null,
+          "wa": 4,
+          "da": 0,
+          "la": 0,
+          "gfa": 7,
+          "gaa": 2,
+          "over05": 100,
+          "over15": 0,
+          "over25": 0,
+          "over35": 0,
+          "btts": 0,
+          "htGolesFavorAprox": 0,
+          "htGolesContraAprox": 3,
+          "over05HT": 75,
+          "over15HT": 50,
+          "over25HT": 0
+        },
         "eibar": {
           "nombreOriginal": "Eibar",
           "gp": 7,
@@ -83072,39 +83130,6 @@
           "htGolesContraAprox": 2,
           "over05HT": 67,
           "over15HT": 33,
-          "over25HT": 0
-        },
-        "castellon": {
-          "nombreOriginal": "Castellon",
-          "gp": 6,
-          "w": 5,
-          "d": 1,
-          "l": 0,
-          "gf": 12,
-          "ga": 2,
-          "pts": 16,
-          "ppg": 2.67,
-          "wh": 2,
-          "dh": 1,
-          "lh": 0,
-          "gfh": 7,
-          "gah": 0,
-          "ppgh": null,
-          "ppga": null,
-          "wa": 3,
-          "da": 0,
-          "la": 0,
-          "gfa": 5,
-          "gaa": 2,
-          "over05": 100,
-          "over15": 0,
-          "over25": 0,
-          "over35": 0,
-          "btts": 0,
-          "htGolesFavorAprox": 0,
-          "htGolesContraAprox": 2,
-          "over05HT": 67,
-          "over15HT": 67,
           "over25HT": 0
         },
         "almeria": {
@@ -83305,39 +83330,6 @@
           "over15HT": 67,
           "over25HT": 0
         },
-        "leganes": {
-          "nombreOriginal": "Leganes",
-          "gp": 6,
-          "w": 3,
-          "d": 2,
-          "l": 1,
-          "gf": 6,
-          "ga": 5,
-          "pts": 11,
-          "ppg": 1.83,
-          "wh": 2,
-          "dh": 0,
-          "lh": 0,
-          "gfh": 4,
-          "gah": 2,
-          "ppgh": null,
-          "ppga": null,
-          "wa": 1,
-          "da": 2,
-          "la": 1,
-          "gfa": 2,
-          "gaa": 3,
-          "over05": 50,
-          "over15": 0,
-          "over25": 0,
-          "over35": 0,
-          "btts": 0,
-          "htGolesFavorAprox": 0,
-          "htGolesContraAprox": 1,
-          "over05HT": 50,
-          "over15HT": 25,
-          "over25HT": 0
-        },
         "tenerife": {
           "nombreOriginal": "Tenerife",
           "gp": 7,
@@ -83369,6 +83361,39 @@
           "htGolesContraAprox": 1,
           "over05HT": 100,
           "over15HT": 67,
+          "over25HT": 0
+        },
+        "leganes": {
+          "nombreOriginal": "Leganes",
+          "gp": 7,
+          "w": 3,
+          "d": 2,
+          "l": 2,
+          "gf": 6,
+          "ga": 7,
+          "pts": 11,
+          "ppg": 1.57,
+          "wh": 2,
+          "dh": 0,
+          "lh": 1,
+          "gfh": 4,
+          "gah": 4,
+          "ppgh": null,
+          "ppga": null,
+          "wa": 1,
+          "da": 2,
+          "la": 1,
+          "gfa": 2,
+          "gaa": 3,
+          "over05": 50,
+          "over15": 0,
+          "over25": 0,
+          "over35": 0,
+          "btts": 0,
+          "htGolesFavorAprox": 0,
+          "htGolesContraAprox": 1,
+          "over05HT": 50,
+          "over15HT": 25,
           "over25HT": 0
         },
         "laspalmas": {
@@ -83770,11 +83795,6 @@
       },
       "partidos": [
         {
-          "fechaISO": "2026-09-28T19:30:00.000Z",
-          "local": "Leganes",
-          "visita": "Castellon"
-        },
-        {
           "fechaISO": "2026-10-02T19:30:00.000Z",
           "local": "Eldense",
           "visita": "Real Oviedo"
@@ -83818,6 +83838,11 @@
           "fechaISO": "2026-10-04T17:30:00.000Z",
           "local": "Las Palmas",
           "visita": "Valladolid"
+        },
+        {
+          "fechaISO": "2026-10-04T20:00:00.000Z",
+          "local": "Girona",
+          "visita": "Mallorca"
         }
       ]
     },
@@ -90236,7 +90261,12 @@
           "over15": 20,
           "over25": 0,
           "over35": 0,
-          "btts": 0
+          "btts": 0,
+          "htGolesFavorAprox": 0,
+          "htGolesContraAprox": 2,
+          "over05HT": 100,
+          "over15HT": 20,
+          "over25HT": 0
         },
         "bursaspor": {
           "nombreOriginal": "Bursaspor",
@@ -90264,7 +90294,12 @@
           "over15": 60,
           "over25": 0,
           "over35": 0,
-          "btts": 20
+          "btts": 20,
+          "htGolesFavorAprox": 0,
+          "htGolesContraAprox": 1,
+          "over05HT": 80,
+          "over15HT": 40,
+          "over25HT": 0
         },
         "igdir": {
           "nombreOriginal": "Igdir",
@@ -90292,7 +90327,12 @@
           "over15": 25,
           "over25": 0,
           "over35": 0,
-          "btts": 25
+          "btts": 25,
+          "htGolesFavorAprox": 0,
+          "htGolesContraAprox": 2,
+          "over05HT": 50,
+          "over15HT": 50,
+          "over25HT": 0
         },
         "bpetrolspor": {
           "nombreOriginal": "B. Petrolspor",
@@ -90320,7 +90360,12 @@
           "over15": 25,
           "over25": 0,
           "over35": 0,
-          "btts": 0
+          "btts": 0,
+          "htGolesFavorAprox": 1,
+          "htGolesContraAprox": 2,
+          "over05HT": 100,
+          "over15HT": 75,
+          "over25HT": 25
         },
         "sariyer": {
           "nombreOriginal": "Sariyer",
@@ -90348,7 +90393,12 @@
           "over15": 0,
           "over25": 0,
           "over35": 0,
-          "btts": 0
+          "btts": 0,
+          "htGolesFavorAprox": 0,
+          "htGolesContraAprox": 0,
+          "over05HT": 100,
+          "over15HT": 100,
+          "over25HT": 0
         },
         "keciorengucu": {
           "nombreOriginal": "Keciorengucu",
@@ -90376,7 +90426,12 @@
           "over15": 25,
           "over25": 0,
           "over35": 0,
-          "btts": 0
+          "btts": 0,
+          "htGolesFavorAprox": 1,
+          "htGolesContraAprox": 1,
+          "over05HT": 75,
+          "over15HT": 25,
+          "over25HT": 25
         },
         "mardinbb": {
           "nombreOriginal": "Mardin BB",
@@ -90404,7 +90459,12 @@
           "over15": 50,
           "over25": 0,
           "over35": 0,
-          "btts": 0
+          "btts": 0,
+          "htGolesFavorAprox": 1,
+          "htGolesContraAprox": 1,
+          "over05HT": 75,
+          "over15HT": 25,
+          "over25HT": 0
         },
         "antalyaspor": {
           "nombreOriginal": "Antalyaspor",
@@ -90432,7 +90492,12 @@
           "over15": 0,
           "over25": 0,
           "over35": 0,
-          "btts": 0
+          "btts": 0,
+          "htGolesFavorAprox": 0,
+          "htGolesContraAprox": 1,
+          "over05HT": 67,
+          "over15HT": 33,
+          "over25HT": 0
         },
         "fkaragumruk": {
           "nombreOriginal": "F. Karagumruk",
@@ -90460,7 +90525,12 @@
           "over15": 25,
           "over25": 0,
           "over35": 0,
-          "btts": 25
+          "btts": 25,
+          "htGolesFavorAprox": 0,
+          "htGolesContraAprox": 1,
+          "over05HT": 75,
+          "over15HT": 25,
+          "over25HT": 25
         },
         "muglaspor": {
           "nombreOriginal": "Muglaspor",
@@ -90488,7 +90558,12 @@
           "over15": 25,
           "over25": 0,
           "over35": 0,
-          "btts": 25
+          "btts": 25,
+          "htGolesFavorAprox": 0,
+          "htGolesContraAprox": 1,
+          "over05HT": 25,
+          "over15HT": 0,
+          "over25HT": 0
         },
         "bandirmaspor": {
           "nombreOriginal": "Bandirmaspor",
@@ -90516,7 +90591,12 @@
           "over15": 33,
           "over25": 0,
           "over35": 0,
-          "btts": 33
+          "btts": 33,
+          "htGolesFavorAprox": 0,
+          "htGolesContraAprox": 0,
+          "over05HT": 33,
+          "over15HT": 0,
+          "over25HT": 0
         },
         "pendikspor": {
           "nombreOriginal": "Pendikspor",
@@ -90544,7 +90624,12 @@
           "over15": 50,
           "over25": 25,
           "over35": 0,
-          "btts": 25
+          "btts": 25,
+          "htGolesFavorAprox": 0,
+          "htGolesContraAprox": 1,
+          "over05HT": 100,
+          "over15HT": 75,
+          "over25HT": 25
         },
         "manisabb": {
           "nombreOriginal": "Manisa BB",
@@ -90572,7 +90657,12 @@
           "over15": 75,
           "over25": 75,
           "over35": 25,
-          "btts": 75
+          "btts": 75,
+          "htGolesFavorAprox": 0,
+          "htGolesContraAprox": 1,
+          "over05HT": 75,
+          "over15HT": 25,
+          "over25HT": 0
         },
         "bodrumspor": {
           "nombreOriginal": "Bodrumspor",
@@ -90600,7 +90690,12 @@
           "over15": 25,
           "over25": 0,
           "over35": 0,
-          "btts": 0
+          "btts": 0,
+          "htGolesFavorAprox": 0,
+          "htGolesContraAprox": 0,
+          "over05HT": 75,
+          "over15HT": 50,
+          "over25HT": 0
         },
         "sivasspor": {
           "nombreOriginal": "Sivasspor",
@@ -90628,7 +90723,12 @@
           "over15": 50,
           "over25": 0,
           "over35": 0,
-          "btts": 25
+          "btts": 25,
+          "htGolesFavorAprox": 0,
+          "htGolesContraAprox": 0,
+          "over05HT": 75,
+          "over15HT": 50,
+          "over25HT": 0
         },
         "umraniyespor": {
           "nombreOriginal": "Umraniyespor",
@@ -90656,7 +90756,12 @@
           "over15": 25,
           "over25": 25,
           "over35": 0,
-          "btts": 25
+          "btts": 25,
+          "htGolesFavorAprox": 1,
+          "htGolesContraAprox": 0,
+          "over05HT": 75,
+          "over15HT": 25,
+          "over25HT": 25
         },
         "vanspor": {
           "nombreOriginal": "Van Spor",
@@ -90684,7 +90789,12 @@
           "over15": 50,
           "over25": 25,
           "over35": 0,
-          "btts": 25
+          "btts": 25,
+          "htGolesFavorAprox": 0,
+          "htGolesContraAprox": 0,
+          "over05HT": 100,
+          "over15HT": 100,
+          "over25HT": 0
         },
         "erokspor": {
           "nombreOriginal": "Erokspor",
@@ -90712,7 +90822,12 @@
           "over15": 25,
           "over25": 25,
           "over35": 0,
-          "btts": 25
+          "btts": 25,
+          "htGolesFavorAprox": 0,
+          "htGolesContraAprox": 0,
+          "over05HT": 50,
+          "over15HT": 25,
+          "over25HT": 0
         },
         "istanbulspor": {
           "nombreOriginal": "Istanbulspor",
@@ -90740,7 +90855,12 @@
           "over15": 60,
           "over25": 40,
           "over35": 20,
-          "btts": 20
+          "btts": 20,
+          "htGolesFavorAprox": 0,
+          "htGolesContraAprox": 0,
+          "over05HT": 100,
+          "over15HT": 20,
+          "over25HT": 20
         },
         "boluspor": {
           "nombreOriginal": "Boluspor",
@@ -90768,7 +90888,12 @@
           "over15": 25,
           "over25": 25,
           "over35": 25,
-          "btts": 0
+          "btts": 0,
+          "htGolesFavorAprox": 0,
+          "htGolesContraAprox": 0,
+          "over05HT": 100,
+          "over15HT": 25,
+          "over25HT": 0
         }
       },
       "partidos": [
@@ -93208,6 +93333,39 @@
           "over15HT": 20,
           "over25HT": 0
         },
+        "wanderers": {
+          "nombreOriginal": "Wanderers",
+          "gp": 8,
+          "w": 3,
+          "d": 3,
+          "l": 2,
+          "gf": 10,
+          "ga": 11,
+          "pts": 12,
+          "ppg": 1.5,
+          "wh": 2,
+          "dh": 2,
+          "lh": 0,
+          "gfh": 7,
+          "gah": 3,
+          "ppgh": null,
+          "ppga": null,
+          "wa": 1,
+          "da": 1,
+          "la": 2,
+          "gfa": 3,
+          "gaa": 8,
+          "over05": 50,
+          "over15": 25,
+          "over25": 0,
+          "over35": 0,
+          "btts": 0,
+          "htGolesFavorAprox": 0,
+          "htGolesContraAprox": 0,
+          "over05HT": 100,
+          "over15HT": 50,
+          "over25HT": 25
+        },
         "progreso": {
           "nombreOriginal": "Progreso",
           "gp": 8,
@@ -93240,39 +93398,6 @@
           "over05HT": 75,
           "over15HT": 25,
           "over25HT": 0
-        },
-        "wanderers": {
-          "nombreOriginal": "Wanderers",
-          "gp": 7,
-          "w": 2,
-          "d": 3,
-          "l": 2,
-          "gf": 8,
-          "ga": 10,
-          "pts": 9,
-          "ppg": 1.29,
-          "wh": 1,
-          "dh": 2,
-          "lh": 0,
-          "gfh": 5,
-          "gah": 2,
-          "ppgh": null,
-          "ppga": null,
-          "wa": 1,
-          "da": 1,
-          "la": 2,
-          "gfa": 3,
-          "gaa": 8,
-          "over05": 50,
-          "over15": 25,
-          "over25": 0,
-          "over35": 0,
-          "btts": 0,
-          "htGolesFavorAprox": 0,
-          "htGolesContraAprox": 0,
-          "over05HT": 100,
-          "over15HT": 50,
-          "over25HT": 25
         },
         "bostonriver": {
           "nombreOriginal": "Boston River",
@@ -93441,12 +93566,12 @@
         },
         "albion": {
           "nombreOriginal": "Albion",
-          "gp": 7,
+          "gp": 8,
           "w": 0,
           "d": 0,
-          "l": 7,
-          "gf": 5,
-          "ga": 14,
+          "l": 8,
+          "gf": 6,
+          "ga": 16,
           "pts": 0,
           "ppg": 0,
           "wh": 0,
@@ -93458,27 +93583,22 @@
           "ppga": null,
           "wa": 0,
           "da": 0,
-          "la": 4,
-          "gfa": 2,
-          "gaa": 7,
-          "over05": 50,
-          "over15": 50,
+          "la": 5,
+          "gfa": 3,
+          "gaa": 9,
+          "over05": 60,
+          "over15": 60,
           "over25": 0,
           "over35": 0,
-          "btts": 25,
+          "btts": 20,
           "htGolesFavorAprox": 0,
           "htGolesContraAprox": 0,
           "over05HT": 100,
-          "over15HT": 25,
+          "over15HT": 20,
           "over25HT": 0
         }
       },
       "partidos": [
-        {
-          "fechaISO": "2026-09-29T00:00:00.000Z",
-          "local": "Wanderers",
-          "visita": "Albion"
-        },
         {
           "fechaISO": "2026-10-01T00:00:00.000Z",
           "local": "Montevideo City",
@@ -93518,6 +93638,11 @@
           "fechaISO": "2026-10-04T23:30:00.000Z",
           "local": "Racing CM",
           "visita": "Penarol"
+        },
+        {
+          "fechaISO": "2026-10-06T00:00:00.000Z",
+          "local": "Nacional",
+          "visita": "Montevideo City"
         }
       ]
     },
